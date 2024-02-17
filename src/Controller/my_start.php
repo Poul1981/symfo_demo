@@ -23,4 +23,8 @@ class my_start
         return new Response("$form");
     }
 
+    public function hello(){
+        return new Response('hello test11');
+    }
+
 }
